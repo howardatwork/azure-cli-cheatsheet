@@ -305,6 +305,11 @@ az acs scale -g acsrg1 -n acs-cluster --new-agent-count 4
 az acs delete -g acsrg1 -n acs-cluster
 ```
 # Resource Usages
+VM
 ```
 az vm list-usage --subscription <subid> --location "East US" -o table
+```
+Network
+```
+az network list-usages --subscription <subid> --location "East US" -o table
 ```
